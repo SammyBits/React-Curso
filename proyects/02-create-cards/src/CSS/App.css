@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cd-main {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.card {
+  /* Estilos de la tarjeta */
+  margin: 1rem;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #323232;
+  text-align: center; /* Alinea el texto de la tarjeta a la izquierda */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .cd-main {
+    grid-template-columns: repeat(1, 1fr); /* Una columna en dispositivos móviles */
+  }
+}
+
+/* Media query para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cd-main {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en tablets */
+  }
+}
+
+/* Media query para pantallas más grandes */
+@media (min-width: 1025px) {
+  .cd-main {
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas en pantallas más grandes */
+  }
+}
