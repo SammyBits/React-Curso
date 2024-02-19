@@ -1,6 +1,7 @@
 import NavItem from "./NavItem/NavItem";
 import { FaHome } from "react-icons/fa";
 import { FaInfoCircle } from "react-icons/fa";
+import { FaUsersCog } from "react-icons/fa";
 
 import { NavItemProps } from "./NavItem/NavItemProps";
 
@@ -17,6 +18,11 @@ const navItems: NavItemProps[] = [
     title: "About",
     icon: <FaInfoCircle />,
     route: "/about",
+  },
+  {
+    title: "Users",
+    icon: <FaUsersCog />,
+    route: "/users",
   },
 ];
 /**

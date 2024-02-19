@@ -21,11 +21,10 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <BrowserRouter>
-      <Sidebar />
+        <Sidebar />
         <div className="main">
           <AppRoutes />
         </div>
-         
       </BrowserRouter>
     </div>
   );

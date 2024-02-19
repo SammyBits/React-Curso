@@ -1,0 +1,33 @@
+.card-main {
+    background-color: #001716;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    width: 100%; /* Haz que el ancho de la tarjeta sea relativo al contenedor principal */
+    max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
+
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+
+  }
+  
+  .card-info {
+    font-size: 1.2rem;
+  }
+  
+  .card-info h1 {
+    font-size: 1.5rem; /* Ajusta el tamaño del texto según sea necesario */
+    color: #ffdf5e; /* Cambia el color del texto */
+    margin-bottom: 8px; /* Añade espacio entre el título y el valor */
+  }
+  
+  .card-info p {
+    margin-top: 10px; /* Añade un espacio entre el título y la descripción */
+    
+  }
+  
+  .card-image img {
+    margin-right: 20px;
+    border-radius: 10px; /* Ajusta el radio según prefieras */
+}
+  

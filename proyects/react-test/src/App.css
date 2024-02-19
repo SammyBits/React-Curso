@@ -5,12 +5,13 @@
 .sidebar {
   max-width: 40%;
   height: 100vh;
-  background-color: #00413D;
+  background-color: #00413d;
   padding-top: 10px;
   transition: all 0.3s ease;
 }
 
 .main {
-  flex: 1;
-  padding: 20px;
+  flex-grow: 1; /* Hace que el contenido de .main ocupe todo el espacio restante */
+  background-color: #002220;
+  padding: 15px;
 }
