@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+}
+
+.sidebar {
+  max-width: 40%;
+  height: 100vh;
+  background-color: #00413D;
+  padding-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}

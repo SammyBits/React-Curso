@@ -1,0 +1,40 @@
+.nv-item {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+    text-decoration: none; /* Quitar subrayado del Link */
+}
+
+.nv-item:hover {
+    background-color: #ffdf5e;
+    border-radius: 20px 0 0 20px;
+    transition: all 0.3s ease;
+}
+
+.nv-item:hover .nv-itemTitle {
+    color: #00413D;
+    transition: all 0.3s ease;
+}
+
+.nv-item:hover .nv-itemIcon{
+    color: #00413D;
+    transition: all 0.3s ease;
+}
+
+.nv-itemInfo{
+  padding: 15px;
+
+}
+
+.nv-itemIcon {
+    color: #fff;
+    font-size: 25px;
+    padding: 0 15px 0 0;
+}
+
+.nv-itemTitle {
+    color: #ffdf5e;
+    font-weight: 600;
+    font-size: 20px;
+}
