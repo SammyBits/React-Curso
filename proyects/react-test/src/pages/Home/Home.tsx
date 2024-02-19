@@ -1,6 +1,7 @@
 import { Card } from "../../components/Card/Card";
 import "./Home.css";
 import { CardProps } from "../../components/Card/CardProps";
+import { Topbar } from "../../components/Topbar/Topbar";
 
 const cards: CardProps[] = [
   {
@@ -32,7 +33,7 @@ const cards: CardProps[] = [
 const Home = () => {
   return (
     <div className="home-main">
-      <h1>Home</h1>
+      <Topbar title="Home"/>
       <section className="home-data">
         {cards.map((card, index) => (
           <Card

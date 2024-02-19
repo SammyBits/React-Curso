@@ -4,6 +4,7 @@ import { AppRoutes } from "./routers/routers";
 import Sidebar from "./components/Sidebar/Sidebar";
 import React from "react";
 import "./App.css";
+import { Topbar } from "./components/Topbar/Topbar";
 
 interface ThemeContextType {
   setTheme: React.Dispatch<React.SetStateAction<string>>;
@@ -21,8 +22,10 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <BrowserRouter>
+      
         <Sidebar />
         <div className="main">
+
           <AppRoutes />
         </div>
       </BrowserRouter>
